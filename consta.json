@@ -1222,15 +1222,15 @@
   "color_cursoBycode": {
     "[802]": "Orange",
     "[663]": "Orange",
-    "[714]": "Blue",
+    "[714]": "DarkBlue",
     "[847]": "Gray",
     "[1029]": "Gray",
     "[1057]": "Gray",
-    "[919]": "#006400",
-    "[763]": "#2f085c",
-    "[1038]": "#4a0128",
-    "[728]": "#084f75",
-    "[1074]": "#6e1d00"
+    "[919]": "DarkGreen",
+    "[763]": "Purple",
+    "[1038]": "DarkMagenta",
+    "[728]": "Teal",
+    "[1074]": "FireBrick"
   },
   "textXPathgroup": {
     "Type": "/html/body/div[4]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[1]/td",
