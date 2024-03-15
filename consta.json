@@ -1250,7 +1250,9 @@
     "Group chat": "/html/body/div[4]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[14]/td",
     "Record": "/html/body/div[4]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[15]/td",
     "Zoom Master": "/html/body/div[4]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[16]/td",
-    "Row Student": "//*[@id=\"test1\"]/table/tbody/tr"
+    "Row Student": "//*[@id=\"test1\"]/table/tbody/tr",
+    "Name Student": "//*[@id=\"test1\"]/table/tbody/tr[#n_std#]/td[1]/div/div[1]/a",
+    "Tutor Name": "//*[@id=\"logout-trigger\"]"
   },
   "imageBS64": {
     "update": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAJ2AAACdgBx6C5rQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADUSURBVDiNxdI9TkJREAXgT7EjGtGC0sQQLQ0lnboGwxY0bEH3ACtxA0ZcgPCgxspOKxZg4qO4k5DghYcVJ7nJTc6ZmTM/7Bp7G7hLXIVmgtm2SVt4RYmfeCWGwVUGf2OEa9SwjxuM8YVmLrCBY7yF3XpGU8cjDnMJBvgMq894qLK6ijPMLfvurdF18I67HNlFEaIcepYDnUfRf+Feaq+U2u3nREd4sn6IE2mdpzjJJWhKqypwK63xIP5FcFvdwtDfQ3rB+ap40ylfoI1fTPFRVXk3WADHDC4M2JuhIAAAAABJRU5ErkJggg==",
@@ -1273,5 +1275,12 @@
     "record": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEASURBVDiNtdM9L0RBGMXxnw2JwlJI1GxHSBRCUCs0OgWFxFdQaYjWx9BKxIcQEiJbINF5K1AohHgr1lXMrFw37r2yiZNM88xz/pnzzAz/oHa0tWpewwseMI8+LGDwL+ZRPGMay3jCBXZwj/EywCxuhAj9SHAY9zawXgboxCnOcYvdCNzCNSaKzN3YjuYEn6hHYyLMZB8zsb8jC1iKjWXrAL04wSJUUsdPq45VvGbqwzjCCLrSgKz2sImxGKOpKmrpxjxAU1fCQHOVBxjAFI4xmap/4PE3QCMDmBOmPpSpnwn5LyPsWzXcKb6BBlZif1V4cD8+TQU9OZHgHW8F+63pC+ViQeN4O+JiAAAAAElFTkSuQmCC",
     "visual": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAACmAAAApgHdff84AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAG9QTFRF////I4v/OlHcgMX/IoP/N0zjg8j/J4b/OE7hgsv/JIb9Ok7igsn/JYf9OkzihMn/JYb+Ok3hg8n/Jof8Okzjg8n/JYb9OU3igsn/JYb9Ok3jgsj/JYf9Ok3hg8n/JYb9Ok3ig8n/JYb9Ok3ig8n/K8irlwAAACJ0Uk5TABYWFiUlJTs7O42NjZ2dnbW1tcXFxdXV1dfX19jY2P39/dolv5gAAACUSURBVChTvdFJDoMwEAXRShgSRoPDbGa4/xkTELTYZkMt/5NaloyXr3uTdsFJx2Uve3PsvxTEy1mG7KuBRmC5QA/dzTAJVFDKPqIFQggEUlxl+q0qtOAZlN1WEzv8nx3V7VbhP8AKq/2uUS7JfOZDKC/RDAIFVAITss8t9ALrzVCDucBHIAIle87rkCGxwdXHL+TeF2GZPKZgc6BUAAAAAElFTkSuQmCC",
     "wa": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAbwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIASURBVDiNjZM9aJNRFIafc6uWiDYVibW0poVoWqGFQgvGDIpDFZJIv3bxB9yKoktxEMRFFNE1md2rODSxJB0F6w+tUBASEAtxSCh1iZIUDc3PdxySD4KYxjMe3ue55x7uFVWltcLxOb8RvQ5MCkwCKGwAG7bKYmp2abM1L45AEAknrAWBp4CLf1dZ4UHKSsSUBiiqiiASSVhJINQG/LtWklYioqgagHDCWnBg7+ETDBwa6CQINRkktDTrN6KfAZe/9xTPgk8oVkrcfHObml3bS1K2VSZMc2EugGB/ABGht9tN4PiZTlO4jOg1Q3PTAL9qvwFQVcq1cicBwJSRFsHa90+oKqVqiXQh05EWmDQK+51GfidP/Ntr3Afc3Bm/9T8T0DVy5XQEYchppAsZTrp9nO0PMNTj5cvPrxgx3J+6R9/BY+R2clTsqhN/2zVydXQMCLZaP2x/BOCid5pL3mkuDJ7H5/YxfnSM4Z5hVrfeOdFFU7NNFNhtFdhq83LzFQ/XH1OsFPG4PABU7SqrW++dWNlWeSGqyuX43HNE59vd0+f2MXrET7qQIbeTB0DhbtKKR/c1t+nTdjSQLWbJFrOtrZWUlYgBmJnlmT4VPQdUBNaBvZ5fuXFy4x8AmLptBgVu1Lt3PctWPCBddT8QQ3QN+CGwDSSBR7bKRNKKRx0Y4A879MSr4DxQeAAAAABJRU5ErkJggg=="
+  },
+  "textTemplate": {
+    "ENG": {
+      "infoNewsCG": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>engagement, reviews assignments, or encourages submission of assignments.",
+      "infoNewsLB": "<a href =\"#href_student#\">#student#</a> has balance <b>#balanceStudent#</b>, consult parents about its continuity or send the information to ISM.",
+      "infoNewsNA": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>students without taking attendance."
+    }
   }
 }
