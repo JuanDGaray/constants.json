@@ -1259,6 +1259,10 @@
       "infoNewsCG": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>engagement, reviews assignments, or encourages submission of assignments.",
       "infoNewsLB": "<a href =\"#href_student#\">#student#</a> has balance <b>#balanceStudent#</b>, consult parents about its continuity or send the information to ISM.",
       "infoNewsNA": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>students without taking attendance."
+    },
+    "ESP": {
+      "sumaryWeek": "\u00a1Hola, #nameStudent#! \ud83d\ude0a \u00a1Es momento de revisar tu semana!\n\nEste ha sido un semana llena de logros para ti. Has completado #taskSub# y a\u00fan tienes #taskNoSub# pendientes. \u00a1Vas por buen camino para alcanzar tus metas!\n\nVamos a hablar de tu asistencia, \u00bfsab\u00edas que has asistido al #AttendPercent# de tus clases hasta ahora? Lo que indica que tu asitencia es #attendaceLevel#.\n\nAhora, hablemos sobre tus actividades pendientes. Aqu\u00ed tienes un vistazo r\u00e1pido a lo que a\u00fan est\u00e1 por hacer:\n#taskHerf#\n\nRecuerda, estoy aqu\u00ed para ayudarte en cualquier momento. Si necesitas asistencia con alguna tarea o tienes alguna pregunta, no dudes en escribirme.\n_*\u00a1Adelante y sigue brillando!*_ \ud83d\udcaa\ud83d\ude0a",
+      "WaLimitUp": "[Pegar template generado en Asistutor]"
     }
   },
   "imageBS64": {
