@@ -1252,7 +1252,12 @@
     "Zoom Master": "/html/body/div[4]/div[2]/div/div[2]/div/div[1]/table/tbody/tr[16]/td",
     "Row Student": "//*[@id=\"test1\"]/table/tbody/tr",
     "Name Student": "//*[@id=\"test1\"]/table/tbody/tr[#n_std#]/td[1]/div/div[1]/a",
-    "Tutor Name": "//*[@id=\"logout-trigger\"]"
+    "Tutor Name": "//*[@id=\"logout-trigger\"]",
+    "id_group": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[1]",
+    "namegroup": "//*[@id=\"table_to_change\"]/table/tbody/tr[#namegroup#]/td[2]",
+    "sa": "//*[@id=\"table_to_change\"]/table/tbody/tr[#sa#]/td[6]",
+    "course": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[4]",
+    "lesson": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[7]"
   },
   "textTemplate": {
     "ENG": {
