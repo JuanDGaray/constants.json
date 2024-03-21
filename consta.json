@@ -1257,17 +1257,22 @@
     "namegroup": "//*[@id=\"table_to_change\"]/table/tbody/tr[#namegroup#]/td[2]",
     "sa": "//*[@id=\"table_to_change\"]/table/tbody/tr[#sa#]/td[6]",
     "course": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[4]",
-    "lesson": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[7]"
+    "lesson": "//*[@id=\"table_to_change\"]/table/tbody/tr[#groupIndx#]/td[7]",
+    "studentPhone": "/html/body/div[3]/div[2]/div/div[2]/div[2]/table/tbody/tr[3]/td/a",
+    "rank_point": "/html/body/div[3]/div[2]/div/div[14]/div/div[1]/table/tbody/tr/td[3]",
+    "studentRank": "/html/body/div[3]/div[2]/div/div[2]/div[1]/table/tbody/tr[2]/td"
   },
   "textTemplate": {
     "ENG": {
       "infoNewsCG": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>engagement, reviews assignments, or encourages submission of assignments.",
       "infoNewsLB": "<a href =\"#href_student#\">#student#</a> has balance <b>#balanceStudent#</b>, consult parents about its continuity or send the information to ISM.",
-      "infoNewsNA": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>students without taking attendance."
+      "infoNewsNA": "Group <a href =\"#href_group#\">#group#</a> has <b>#engagement# </b>students without taking attendance.",
+      "templateWaBalanceLow": "\u00a1Hola! Aqu\u00ed el tutor de #student#\ud83d\ude0a\n\nHa sido emocionante todo el progreso que hemos logrado con el estudiante hasta ahora. Sin embargo, me gustar\u00eda discutir el saldo actual de las clases restantes, ya que actualmente tiene un balance de #balance# clase. \u00bfHa tenido la oportunidad de comunicarse con nuestro equipo de servicio al cliente? \u00bfO est\u00e1 considerando agregar m\u00e1s clases para asegurarnos de que contin\u00fae avanzando en su aprendizaje?\n\n\u00a1Que tengan un excelente d\u00eda!"
     },
     "ESP": {
       "sumaryWeek": "\u00a1Hola, #nameStudent#! \ud83d\ude0a \u00a1Es momento de revisar tu semana!\n\nEste ha sido un semana llena de logros para ti. Has completado #taskSub# y a\u00fan tienes #taskNoSub# pendientes. \u00a1Vas por buen camino para alcanzar tus metas!\n\nVamos a hablar de tu asistencia, \u00bfsab\u00edas que has asistido al #AttendPercent# de tus clases hasta ahora? Lo que indica que tu asitencia es #attendaceLevel#.\n\nAhora, hablemos sobre tus actividades pendientes. Aqu\u00ed tienes un vistazo r\u00e1pido a lo que a\u00fan est\u00e1 por hacer:\n#taskHerf#\n\nRecuerda, estoy aqu\u00ed para ayudarte en cualquier momento. Si necesitas asistencia con alguna tarea o tienes alguna pregunta, no dudes en escribirme.\n_*\u00a1Adelante y sigue brillando!*_ \ud83d\udcaa\ud83d\ude0a",
-      "WaLimitUp": "[Pegar template generado en Asistutor]"
+      "WaLimitUp": "[Pegar template generado en Asistutor]",
+      "templateWa": ""
     }
   },
   "imageBS64": {
