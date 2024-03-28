@@ -1261,7 +1261,8 @@
     "studentPhone": "/html/body/div[3]/div[2]/div/div[2]/div[2]/table/tbody/tr[3]/td/a",
     "rank_point": "/html/body/div[3]/div[2]/div/div[14]/div/div[1]/table/tbody/tr/td[3]",
     "studentRank": "/html/body/div[3]/div[2]/div/div[2]/div[1]/table/tbody/tr[2]/td",
-    "nameTutor": "//*[@id=\"logout-trigger\"]"
+    "nameTutor": "//*[@id=\"logout-trigger\"]",
+    "isTutor": "/html/body/div[4]/div[1]/ul/li[6]"
   },
   "textTemplate": {
     "ENG": {
